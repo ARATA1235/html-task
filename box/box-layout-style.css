@@ -1,0 +1,56 @@
+
+
+img{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    object-fit: contain;
+}
+.gift{
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+}
+.item{
+    background-color: rgb(255, 239, 98);
+    width: 25%;
+    height: 530px;
+    padding: 15px;
+    margin: 15px;
+}
+h2{
+    color: black;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    width:  40%; 
+    border-radius: 30px;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: rgb(71, 157, 255);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-top: 6%;
+
+}
+.box{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+p{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6%;
+}
