@@ -3,11 +3,16 @@
 .All {
     display: flex; 
 }
+
 main {
     width: 70%;
-    background-color: dimgray
-
+    background-color: skyblue;
 }
+
+h2 {
+    background: linear-gradient(transparent 30%, #0e6be6 100%); 
+}
+
 
 .name {
     text-align: center;
@@ -33,4 +38,18 @@ aside {
 
 p {
     text-align: center;
+}
+
+.alt li {
+    padding: 0;
+    position: relative;
+}
+
+.alt li {
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;/*左側の線*/
+    background: #f1f8ff;/*背景色*/
+    margin-bottom: 3px;/*下のバーとの余白*/
+    padding: 0.5em;
+    list-style-type: none!important;/*ポチ消す*/
 }
