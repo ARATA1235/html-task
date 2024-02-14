@@ -1,0 +1,374 @@
+.image {
+    margin: auto;
+    padding: auto;
+}
+
+  /* ul要素の子要素を横並びし、スタイル調整と均等配置 */
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 30px 130px;
+    padding: 0px;
+    justify-content: center;
+}
+
+/* リンクのスタイル設定 */
+header ul li a {
+    display: block;
+    margin: 0 40px;
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+    /* 太字にするプロパティ */
+    font-weight: bold;
+}
+
+/* .ls {
+    background-color: wheat;
+} */
+
+nav ul li a {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: bold;
+}
+
+
+header {
+    display: flex;
+    margin: 0;
+}
+
+.footer {
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: rgb(255, 255, 255);
+  }
+  
+  .footer__navi {
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  
+  .footer__navi li {
+    display: inline-block;
+  }
+  
+  .footer__navi li:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+  .footer__logo {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  @media (min-width: 768px) {
+    .md-flex {
+      display: flex;
+    }
+  
+    .md-justify-between {
+      justify-content: space-between;
+    }
+  
+    .copyright {
+      text-align: left;
+    }
+  }
+
+
+
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.chara {
+    margin: 110px 120px 0 80px;
+
+}
+/* 信 */
+.name {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, 	#4169E1, transparent);
+}
+
+.ch6 {
+    color: black;
+    text-decoration: none;
+}
+.ch6:hover {
+    color: #4169E1;
+}
+
+
+/* かりょうてん */
+.name1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name1:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #e7ff0a, transparent);
+}
+
+.ch1 {
+    color: black;
+    text-decoration: none;
+}
+.ch1:hover {
+    color: #e7ff0a;
+}
+
+/* かんき */
+.name2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name2:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #9400D3, transparent);
+}
+
+.ch2 {
+    color: black;
+    text-decoration: none;
+}
+.ch2:hover {
+    color: #9400D3;
+}
+
+
+/* 姜戒 */
+.name3 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name3:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #fa30ac, transparent);
+}
+
+.ch3 {
+    color: black;
+    text-decoration: none;
+}
+.ch3:hover {
+    color: #fa30ac;
+}
+
+
+/* 王ほん */
+.name4 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name4:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #999999, transparent);
+}
+
+.ch4 {
+    color: black;
+    text-decoration: none;
+}
+.ch4:hover {
+    color: #999999;
+}
+
+/* 王騎 */
+.name5 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name5:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #000099, transparent);
+}
+
+.ch5 {
+    color: black;
+    text-decoration: none;
+}
+.ch5:hover {
+    color: #000099;
+}
+
+/* 政 */
+.name6 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name6:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #FF3333, transparent);
+}
+
+.ch7 {
+    color: black;
+    text-decoration: none;
+}
+.ch7:hover {
+    color: #FF3333;
+}
+
+/* 謄 */
+.name7 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name7:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #3399FF, transparent);
+}
+
+.ch8 {
+    color: black;
+    text-decoration: none;
+}
+.ch8:hover {
+    color: #3399FF;
+}
+
+/* 尾平 */
+.name8 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name8:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #2de71c, transparent);
+}
+
+.ch9 {
+    color: black;
+    text-decoration: none;
+}
+.ch9:hover {
+    color: #2de71c;
+}
+
+/* 蒙武 */
+.name9 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name9:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #10a702, transparent);
+}
+
+.ch10 {
+    color: black;
+    text-decoration: none;
+}
+.ch10:hover {
+    color: #10a702;
+}
+
+/* 蒙恬 */
+.name10 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    position: relative;
+	
+}
+
+.name10:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: linear-gradient(to right, #c40041, transparent);
+}
+
+.ch11 {
+    color: black;
+    text-decoration: none;
+}
+.ch11:hover {
+    color: #c40041;
+}
+
+
+.voice {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn{
+    text-align: center;
+    margin: 60px;
+}
+
+.copyright {
+    text-align: center;
+}
